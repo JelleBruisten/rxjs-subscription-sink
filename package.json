@@ -1,0 +1,35 @@
+{
+  "name": "rxjs-subscription-sink",
+  "version": "1.0.0",
+  "description": "Rxjs Subscription Container",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JelleBruisten/rxjs-subscription-sink.git"
+  },
+  "keywords": [
+    "Rxjs",
+    "Subscription"
+  ],
+  "author": "Jelle Bruisten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JelleBruisten/rxjs-subscription-sink/issues"
+  },
+  "homepage": "https://github.com/JelleBruisten/rxjs-subscription-sink#readme",
+  "devDependencies": {
+    "@types/jasmine": "^3.5.0",
+    "@types/node": "^12.12.14",
+    "jasmine": "^3.5.0",
+    "nyc": "^14.1.1",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "jasmine-node": "^3.0.0",
+    "rxjs": "^6.5.3"
+  }
+}

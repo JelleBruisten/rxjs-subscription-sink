@@ -1,0 +1,1 @@
+export { SubscriptionSink } from "./subscription-sink";
