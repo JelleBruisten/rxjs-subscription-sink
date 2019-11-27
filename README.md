@@ -1,7 +1,7 @@
 # rxjs-subscription-sink
 **RxJS subscription sink for unsubscribing gracefully in a component.**
 
-SubSink is a dead simple class to track RxJS subscriptions.
+SubscriptionSink is a simple RxJS Subscription Container to track RxJS subscriptions.
 
 Call `unsubscribe()` to unsubscribe all of them, as you would do 
 in your component library's `unmount`/`onDestroy` lifecycle event.
