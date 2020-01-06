@@ -57,7 +57,7 @@ export class SubscriptionSink {
 
     // for each subscription, check if its closed, and if unsubscribe is an function
     for (const sub of this.subscriptions) {
-      if (!sub.closed && isFunction(sub.unsubscribe)) {
+      if (sub && !sub.closed && isFunction(sub.unsubscribe)) {
         sub.unsubscribe();
       }
     }
